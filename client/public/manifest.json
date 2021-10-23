@@ -1,0 +1,31 @@
+{
+  "short_name": "ReachMe",
+  "name": "ReachMe",
+  "icons": [
+    {
+      "src": "ReachMe/ReachMe2.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "ReachMe/ReachMe2_192px.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ReachMe/maskable_icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "ReachMe/ReachMe2_512px.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
