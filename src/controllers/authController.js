@@ -1,7 +1,7 @@
 const Users = require('../models/userModel')
 const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
-const sendMail = require('../utils/sendEmail')
+const sendMail = require('../config/sendEmail')
 
 const { CLIENT_URL, ICON_IMAGE } = process.env
 
