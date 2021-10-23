@@ -4,10 +4,10 @@ const nodemailer = require('nodemailer');
 const sendEmail = (options) => {
 
     const transporter = nodemailer.createTransport({
-        service: 'SendGrid',
+        service: 'Gmail',
         auth: {
             user: 'cse.mkamble@gmail.com',
-            pass: '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',
+            pass: 'Mayur#2000',
         }
     });
 
@@ -20,9 +20,9 @@ const sendEmail = (options) => {
 
     transporter.sendMail(mailOptions, function (err, info) {
         if (err) {
-            console.log(err)
+            // console.log(err)
         } else {
-            console.log(info)
+            // console.log(info)
         }
     })
 }
